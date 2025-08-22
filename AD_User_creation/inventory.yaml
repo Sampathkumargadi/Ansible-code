@@ -3,9 +3,9 @@ all:
     windows_ad_server:
       ansible_host: 172.31.34.173
       ansible_user: administrator
-      ansible_password: "!QAZ;0okm"
+      ansible_password: "sUX9ogvQX)cokUekulLzflJ&n0wREb(4"
       ansible_connection: winrm
       ansible_winrm_transport: basic
-      ansible_port: 5986
+      ansible_port: 5985
       ansible_winrm_server_cert_validation: ignore
 
