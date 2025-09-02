@@ -10,8 +10,11 @@ all:
       ansible_winrm_transport: basic
       ansible_port: 5985
       ansible_winrm_server_cert_validation: ignore
-
-[linux_servers]
-
-  172.31.15.158 ansible_user=ec2-user
-  
+    linux_servers:
+      hosts:
+        linux1:
+          ansible_host: 172.31.15.158
+          ansible_user: ec2-user
+        linux2:
+          ansible_host: 172.31.15.159
+          ansible_user: ec2-user
