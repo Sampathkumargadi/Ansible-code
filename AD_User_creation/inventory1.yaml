@@ -1,2 +1,0 @@
-[linuxservers]
-172.31.15.158 ansible_user: ec2-user
