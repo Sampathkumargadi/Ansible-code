@@ -1,4 +1,6 @@
 all:
+  children:
+    ad_environment:
   hosts:
     windows_ad_server:
       ansible_host: 172.31.34.173
@@ -8,6 +10,7 @@ all:
       ansible_winrm_transport: basic
       ansible_port: 5985
       ansible_winrm_server_cert_validation: ignore
+      
     linux_servers:
       hosts:
         linux_server_1:
