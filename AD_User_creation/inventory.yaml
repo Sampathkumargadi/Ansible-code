@@ -13,3 +13,4 @@ all:
         linux_server_1:
           ansible_host: 172.31.15.158
           ansible_user: ec2-user
+          ansible_ssh_private_key_file: C:/users/sampa/downloads/New-SSH-key.pem
